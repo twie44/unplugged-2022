@@ -372,15 +372,6 @@ input[type=button] {
   margin: 20px 0;
 }
 
-.reviews figure {
-  background: url('../img/omar-lopez-296944-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-}
 
 
 
@@ -639,6 +630,10 @@ FAQ Page
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /*Reviews*/
