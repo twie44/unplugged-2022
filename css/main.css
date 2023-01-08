@@ -196,9 +196,12 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin: 0;
+  padding-inline-start: 0px;
 }
 
 header nav ul li {
+  display: flex;
   font-size: 1.125em;
 }
 
@@ -290,6 +293,10 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .content-wrapper {
+  margin-top: 0;
+}
+
 aside .form {
   margin-top: 30px;
 }
@@ -326,6 +333,8 @@ input[type=button] {
   justify-content: center;
   flex-flow: row wrap;
 }
+
+
 
 .features i {
   font-size: 3.75em;
@@ -574,9 +583,14 @@ FAQ Page
 
   header nav {
     width: 20%;
+    font-size: 1em;
   }
 
   header nav ul {
+    justify-content: space-between;
+  }
+
+  header nav ul li {
     justify-content: space-between;
   }
 
@@ -748,6 +762,10 @@ FAQ Page
 
   header {
     padding: 15px 0;
+  }
+
+  header nav {
+    width: 20%;
   }
 
   .content-wrapper {
